@@ -35,7 +35,7 @@ section#Login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -48,6 +48,7 @@ section#Login > div#imagem {
     display: block;
     background: rgba(61, 5, 124, 0.849) url(../imagens/notebook.jpg);
     background-size: cover;
+    background-position: left bottom;
     height: 200px;
     
 }
@@ -64,4 +65,54 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color:rgba(60, 5, 124, 0.767);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #0eaaa5a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #05c4bda8;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color:white;
+    color:  #0a918ca8;
+    border: 1px solid  #05c4bda8;
+    border-radius: 7px;
+}
+form > a.botao:hover {
+    background-color: #a4eeea77;
+}
+
+form > a.botao > span{
+    font-size: 0.9em;
 }
